@@ -9,10 +9,10 @@ a library for detecting sites / hosts and environments. This library can be usef
       ]
     );
     
-    ## get current environment
+    # get current environment
     Multisite::env();
     
-    ## check environment
+    # check environment
     Multisite::is_env('prod');
     Multisite::is_env(['prod', 'new']);
 ```
