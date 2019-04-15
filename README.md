@@ -17,7 +17,7 @@ a library for detecting sites / hosts and environments. This library can be usef
     Multisite::is_env(['prod', 'new']);
 ```
 
-#Support and Feedback
+# Support and Feedback
 If you find a bug, please submit the issue in Github directly. [harvyde/multisite](https://github.com/harvyde/multisite/issues)  Issues
 
 
