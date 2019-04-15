@@ -1,8 +1,15 @@
 {
   "name": "harvyde/multisite",
   "description": "a library for detecting sites / hosts and environments. This library can be useful to build a multisite. Multiple domains pointing to the same application. You can use this class anywhere in your application to serve content based on domain and environment site be being accessed.",
-  "type": "0.1.0",
+  "version": "0.1.0",
+  "type": "library",
   "license": "MIT",
+  "homepage": "http://www.HarvinderDeogan.com",
+  "keywords": [
+    "environments",
+    "multisite",
+    "multi domains"
+  ],
   "authors": [
     {
       "name": "Harvinder Singh",
