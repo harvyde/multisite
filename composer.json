@@ -1,0 +1,30 @@
+{
+  "name": "harvyde/multisite",
+  "description": "a library for detecting sites / hosts and environments. This library can be useful to build a multisite. Multiple domains pointing to the same application. You can use this class anywhere in your application to serve content based on domain and environment site be being accessed.",
+  "type": "0.1.0",
+  "license": "MT",
+  "authors": [
+    {
+      "name": "Harvinder Singh",
+      "email": "mail@harvinderdeogan.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-0": {
+      "Harvyde": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Harvyde\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
+}
